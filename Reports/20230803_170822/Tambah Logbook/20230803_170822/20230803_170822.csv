@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Tambah Logbook,Chrome 115.0.0.0,,,2023-08-03 17:08:31,2023-08-03 17:08:36,4.629s,FAILED
+,,,,,,,
+Test Cases/Login/TCLogin_Positive,Chrome 115.0.0.0,,,2023-08-03 17:08:32,2023-08-03 17:08:35,3.767s,FAILED
+openWebDriver(),Chrome 115.0.0.0,,,2023-08-03 17:08:32,2023-08-03 17:08:34,2.484s,PASSED
+"navigateToUrl(""http://103.180.125.58:8080/#/login"")",Chrome 115.0.0.0,,,2023-08-03 17:08:34,2023-08-03 17:08:35,0.607s,PASSED
+"setText(findTestObject(""login/username_object""), ""dianaslama"")",Chrome 115.0.0.0,,,2023-08-03 17:08:35,2023-08-03 17:08:35,0.298s,FAILED
+,,,,,,,
+Test Cases/Logbook/001 Capaian Negative,Chrome 115.0.0.0,,,2023-08-03 17:08:35,2023-08-03 17:08:36,0.547s,FAILED
+"click(findTestObject(""tambahlogbook/button_Tambah Logbook""))",Chrome 115.0.0.0,,,2023-08-03 17:08:36,2023-08-03 17:08:36,0.111s,FAILED

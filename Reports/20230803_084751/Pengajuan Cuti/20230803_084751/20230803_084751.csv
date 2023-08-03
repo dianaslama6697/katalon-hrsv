@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pengajuan Cuti,,,,2023-08-03 08:48:01,2023-08-03 08:48:02,1.265s,FAILED
+,,,,,,,
+Test Cases/Cuti/TCPengajuanCuti_Positive,,,,2023-08-03 08:48:01,2023-08-03 08:48:02,0.986s,FAILED
+"click(findTestObject(""PengajuanCuti/select_Cuti dan Lembur""))",,,,2023-08-03 08:48:02,2023-08-03 08:48:02,0.465s,FAILED

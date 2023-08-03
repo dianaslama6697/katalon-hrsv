@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Tambah Logbook" time="20.653" tests="2" failures="0" errors="0">
+   <testsuite name="Tambah Logbook" tests="2" failures="0" errors="0" time="20.653" skipped="0" timestamp="2023-08-03 17:08:50" hostname="HRD SHARING VISION - DESKTOP-RO2JRQG" id="Test Suites/Tambah Logbook">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HRD SHARING VISION\\Katalon Studio\\hrsv-test-training\\Reports\\20230803_170842\\Tambah Logbook\\20230803_170842"/>
+         <property name="logFiles" value="C:\\Users\\HRD SHARING VISION\\Katalon Studio\\hrsv-test-training\\Reports\\20230803_170842\\Tambah Logbook\\20230803_170842\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HRD SHARING VISION - DESKTOP-RO2JRQG"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.27"/>
+         <property name="sessionId" value="1d634e3c0b69b2f6296d40aa95955af0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login/TCLogin_Positive" time="5.362" classname="Test Cases/Login/TCLogin_Positive" status="PASSED">
+         <system-out><![CDATA[2023-08-03 17:08:50 - [TEST_CASE][PASSED] - Test Cases/Login/TCLogin_Positive: Test Cases/Login/TCLogin_Positive
+
+2023-08-03 17:08:51 - [TEST_STEP][PASSED] - openWebDriver(): Action delay is set to 0 milliseconds
+
+2023-08-03 17:08:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-03 17:08:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-03 17:08:53 - [TEST_STEP][PASSED] - navigateToUrl("http://103.180.125.58:8080/#/login"): Navigate to 'http://103.180.125.58:8080/#/login' successfully
+
+2023-08-03 17:08:54 - [MESSAGE][PASSED] - Navigate to 'http://103.180.125.58:8080/#/login' successfully
+
+2023-08-03 17:08:54 - [TEST_STEP][PASSED] - setText(findTestObject("login/username_object"), "dianaslama"): Text 'dianaslama' is set on object 'Object Repository/login/username_object'
+
+2023-08-03 17:08:54 - [MESSAGE][PASSED] - Text 'dianaslama' is set on object 'Object Repository/login/username_object'
+
+2023-08-03 17:08:54 - [TEST_STEP][PASSED] - setText(findTestObject("login/password_object"), "dianaslama"): Text 'dianaslama' is set on object 'Object Repository/login/password_object'
+
+2023-08-03 17:08:55 - [MESSAGE][PASSED] - Text 'dianaslama' is set on object 'Object Repository/login/password_object'
+
+2023-08-03 17:08:55 - [TEST_STEP][PASSED] - click(findTestObject("login/button_object")): Object: 'Object Repository/login/button_object' is clicked on
+
+2023-08-03 17:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_object' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logbook/015 Tambah Logbook Positive" time="14.985" classname="Test Cases/Logbook/015 Tambah Logbook Positive" status="PASSED">
+         <system-out><![CDATA[2023-08-03 17:08:56 - [TEST_CASE][PASSED] - Test Cases/Logbook/015 Tambah Logbook Positive: Test Cases/Logbook/015 Tambah Logbook Positive
+
+2023-08-03 17:08:56 - [TEST_STEP][PASSED] - click(findTestObject("tambahlogbook/button_Tambah Logbook")): Object: 'Object Repository/tambahlogbook/button_Tambah Logbook' is clicked on
+
+2023-08-03 17:08:57 - [MESSAGE][PASSED] - Object: 'Object Repository/tambahlogbook/button_Tambah Logbook' is clicked on
+
+2023-08-03 17:08:57 - [TEST_STEP][PASSED] - inputFieldmulai = waitForElementVisible(findTestObject("tambahlogbook/input_Jam Mulai"), 30): Object 'Object Repository/tambahlogbook/input_Jam Mulai' is visible
+
+2023-08-03 17:08:57 - [MESSAGE][PASSED] - Object 'Object Repository/tambahlogbook/input_Jam Mulai' is visible
+
+2023-08-03 17:08:57 - [TEST_STEP][PASSED] - inputFieldselesai = waitForElementVisible(findTestObject("tambahlogbook/input_Jam Selesai"), 30): Object 'Object Repository/tambahlogbook/input_Jam Selesai' is visible
+
+2023-08-03 17:08:57 - [MESSAGE][PASSED] - Object 'Object Repository/tambahlogbook/input_Jam Selesai' is visible
+
+2023-08-03 17:08:57 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].value = '13:00';", Arrays.asList(inputFieldmulai)): Execute JavaScript 'arguments[0].value = '13:00';' successfully
+
+2023-08-03 17:08:58 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].value = '13:00';' successfully
+
+2023-08-03 17:08:58 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].value = '04:00';", Arrays.asList(inputFieldselesai)): Execute JavaScript 'arguments[0].value = '04:00';' successfully
+
+2023-08-03 17:08:58 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].value = '04:00';' successfully
+
+2023-08-03 17:08:58 - [TEST_STEP][PASSED] - setText(findTestObject("tambahlogbook/input_Tanggal"), "01/07/2023"): Text '01/07/2023' is set on object 'Object Repository/tambahlogbook/input_Tanggal'
+
+2023-08-03 17:08:59 - [MESSAGE][PASSED] - Text '01/07/2023' is set on object 'Object Repository/tambahlogbook/input_Tanggal'
+
+2023-08-03 17:08:59 - [TEST_STEP][PASSED] - setText(findTestObject("tambahlogbook/input_Jam Mulai"), "13:00 "): Text '13:00 ' is set on object 'Object Repository/tambahlogbook/input_Jam Mulai'
+
+2023-08-03 17:09:00 - [MESSAGE][PASSED] - Text '13:00 ' is set on object 'Object Repository/tambahlogbook/input_Jam Mulai'
+
+2023-08-03 17:09:00 - [TEST_STEP][PASSED] - setText(findTestObject("tambahlogbook/input_Jam Selesai"), "03:00"): Text '03:00' is set on object 'Object Repository/tambahlogbook/input_Jam Selesai'
+
+2023-08-03 17:09:01 - [MESSAGE][PASSED] - Text '03:00' is set on object 'Object Repository/tambahlogbook/input_Jam Selesai'
+
+2023-08-03 17:09:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("tambahlogbook/input_Mode Kerja"), "WFO", false): All options with value 'WFO' are selected in object 'Object Repository/tambahlogbook/input_Mode Kerja' 
+
+2023-08-03 17:09:01 - [MESSAGE][PASSED] - All options with value 'WFO' are selected in object 'Object Repository/tambahlogbook/input_Mode Kerja' 
+
+2023-08-03 17:09:01 - [TEST_STEP][PASSED] - setText(findTestObject("tambahlogbook/input_Project"), "HRSV Dashboard"): Text 'HRSV Dashboard' is set on object 'Object Repository/tambahlogbook/input_Project'
+
+2023-08-03 17:09:02 - [MESSAGE][PASSED] - Text 'HRSV Dashboard' is set on object 'Object Repository/tambahlogbook/input_Project'
+
+2023-08-03 17:09:02 - [TEST_STEP][PASSED] - setText(findTestObject("tambahlogbook/input_Nama Tim"), "HRSV Team"): Text 'HRSV Team' is set on object 'Object Repository/tambahlogbook/input_Nama Tim'
+
+2023-08-03 17:09:03 - [MESSAGE][PASSED] - Text 'HRSV Team' is set on object 'Object Repository/tambahlogbook/input_Nama Tim'
+
+2023-08-03 17:09:03 - [TEST_STEP][PASSED] - setText(findTestObject("tambahlogbook/input_Use Case"), "Tambah Logbook"): Text 'Tambah Logbook' is set on object 'Object Repository/tambahlogbook/input_Use Case'
+
+2023-08-03 17:09:04 - [MESSAGE][PASSED] - Text 'Tambah Logbook' is set on object 'Object Repository/tambahlogbook/input_Use Case'
+
+2023-08-03 17:09:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("tambahlogbook/input_Kegiatan"), "Searching Materi", false): All options with value 'Searching Materi' are selected in object 'Object Repository/tambahlogbook/input_Kegiatan' 
+
+2023-08-03 17:09:04 - [MESSAGE][PASSED] - All options with value 'Searching Materi' are selected in object 'Object Repository/tambahlogbook/input_Kegiatan' 
+
+2023-08-03 17:09:04 - [TEST_STEP][PASSED] - setText(findTestObject("tambahlogbook/input_Hasil"), "300"): Text '300' is set on object 'Object Repository/tambahlogbook/input_Hasil'
+
+2023-08-03 17:09:05 - [MESSAGE][PASSED] - Text '300' is set on object 'Object Repository/tambahlogbook/input_Hasil'
+
+2023-08-03 17:09:05 - [TEST_STEP][PASSED] - setText(findTestObject("tambahlogbook/input_Capaian"), "50"): Text '50' is set on object 'Object Repository/tambahlogbook/input_Capaian'
+
+2023-08-03 17:09:06 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/tambahlogbook/input_Capaian'
+
+2023-08-03 17:09:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("tambahlogbook/input_Next Step"), "Pause", false): All options with value 'Pause' are selected in object 'Object Repository/tambahlogbook/input_Next Step' 
+
+2023-08-03 17:09:06 - [MESSAGE][PASSED] - All options with value 'Pause' are selected in object 'Object Repository/tambahlogbook/input_Next Step' 
+
+2023-08-03 17:09:06 - [TEST_STEP][PASSED] - setText(findTestObject("tambahlogbook/input_PathFilename"), "testfilepath"): Text 'testfilepath' is set on object 'Object Repository/tambahlogbook/input_PathFilename'
+
+2023-08-03 17:09:07 - [MESSAGE][PASSED] - Text 'testfilepath' is set on object 'Object Repository/tambahlogbook/input_PathFilename'
+
+2023-08-03 17:09:07 - [TEST_STEP][PASSED] - setText(findTestObject("tambahlogbook/input_Detail Pekerjaan"), "test case detail pekerjaan"): Text 'test case detail pekerjaan' is set on object 'Object Repository/tambahlogbook/input_Detail Pekerjaan'
+
+2023-08-03 17:09:09 - [MESSAGE][PASSED] - Text 'test case detail pekerjaan' is set on object 'Object Repository/tambahlogbook/input_Detail Pekerjaan'
+
+2023-08-03 17:09:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("tambahlogbook/input_Waktu Kerja"), "Jam Normal", false): All options with value 'Jam Normal' are selected in object 'Object Repository/tambahlogbook/input_Waktu Kerja' 
+
+2023-08-03 17:09:10 - [MESSAGE][PASSED] - All options with value 'Jam Normal' are selected in object 'Object Repository/tambahlogbook/input_Waktu Kerja' 
+
+2023-08-03 17:09:10 - [TEST_STEP][PASSED] - click(findTestObject("tambahlogbook/button_Submit")): Object: 'Object Repository/tambahlogbook/button_Submit' is clicked on
+
+2023-08-03 17:09:11 - [MESSAGE][PASSED] - Object: 'Object Repository/tambahlogbook/button_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-03 17:08:50 - [TEST_SUITE][PASSED] - Tambah Logbook: Test Cases/Logbook/015 Tambah Logbook Positive]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

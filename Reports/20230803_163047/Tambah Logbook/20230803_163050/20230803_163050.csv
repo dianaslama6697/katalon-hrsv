@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Tambah Logbook,Chrome 115.0.0.0,,,2023-08-03 16:31:23,2023-08-03 16:31:43,20.025s,PASSED
+,,,,,,,
+Test Cases/Login/TCLogin_Positive,Chrome 115.0.0.0,,,2023-08-03 16:31:23,2023-08-03 16:31:30,6.208s,PASSED
+openWebDriver(),Chrome 115.0.0.0,,,2023-08-03 16:31:24,2023-08-03 16:31:27,2.800s,PASSED
+"navigateToUrl(""http://103.180.125.58:8080/#/login"")",Chrome 115.0.0.0,,,2023-08-03 16:31:27,2023-08-03 16:31:27,0.781s,PASSED
+"setText(findTestObject(""login/username_object""), ""dianaslama"")",Chrome 115.0.0.0,,,2023-08-03 16:31:27,2023-08-03 16:31:29,1.168s,PASSED
+"setText(findTestObject(""login/password_object""), ""dianaslama"")",Chrome 115.0.0.0,,,2023-08-03 16:31:29,2023-08-03 16:31:29,0.682s,PASSED
+"click(findTestObject(""login/button_object""))",Chrome 115.0.0.0,,,2023-08-03 16:31:29,2023-08-03 16:31:30,0.387s,PASSED
+,,,,,,,
+Test Cases/Logbook/001 Capaian Negative,Chrome 115.0.0.0,,,2023-08-03 16:31:30,2023-08-03 16:31:43,13.515s,PASSED
+"click(findTestObject(""tambahlogbook/button_Tambah Logbook""))",Chrome 115.0.0.0,,,2023-08-03 16:31:30,2023-08-03 16:31:31,0.445s,PASSED
+"inputFieldmulai = waitForElementVisible(findTestObject(""tambahlogbook/input_Jam Mulai""), 30)",Chrome 115.0.0.0,,,2023-08-03 16:31:31,2023-08-03 16:31:31,0.650s,PASSED
+"inputFieldselesai = waitForElementVisible(findTestObject(""tambahlogbook/input_Jam Selesai""), 30)",Chrome 115.0.0.0,,,2023-08-03 16:31:31,2023-08-03 16:31:32,0.433s,PASSED
+"executeJavaScript(""arguments[0].value = '13:00';"", Arrays.asList(inputFieldmulai))",Chrome 115.0.0.0,,,2023-08-03 16:31:32,2023-08-03 16:31:32,0.036s,PASSED
+"executeJavaScript(""arguments[0].value = '04:00';"", Arrays.asList(inputFieldselesai))",Chrome 115.0.0.0,,,2023-08-03 16:31:32,2023-08-03 16:31:32,0.016s,PASSED
+"setText(findTestObject(""tambahlogbook/input_Tanggal""), ""01/07/2023"")",Chrome 115.0.0.0,,,2023-08-03 16:31:32,2023-08-03 16:31:33,1.041s,PASSED
+"setText(findTestObject(""tambahlogbook/input_Jam Mulai""), ""13:00 "")",Chrome 115.0.0.0,,,2023-08-03 16:31:33,2023-08-03 16:31:34,0.876s,PASSED
+"setText(findTestObject(""tambahlogbook/input_Jam Selesai""), ""03:00"")",Chrome 115.0.0.0,,,2023-08-03 16:31:34,2023-08-03 16:31:35,0.970s,PASSED
+"selectOptionByValue(findTestObject(""tambahlogbook/input_Mode Kerja""), ""WFO"", false)",Chrome 115.0.0.0,,,2023-08-03 16:31:35,2023-08-03 16:31:35,0.701s,PASSED
+"setText(findTestObject(""tambahlogbook/input_Project""), ""HRSV Dashboard"")",Chrome 115.0.0.0,,,2023-08-03 16:31:35,2023-08-03 16:31:36,0.798s,PASSED
+"setText(findTestObject(""tambahlogbook/input_Nama Tim""), ""HRSV Team"")",Chrome 115.0.0.0,,,2023-08-03 16:31:36,2023-08-03 16:31:37,0.727s,PASSED
+"setText(findTestObject(""tambahlogbook/input_Use Case""), ""Tambah Logbook"")",Chrome 115.0.0.0,,,2023-08-03 16:31:37,2023-08-03 16:31:38,0.746s,PASSED
+"selectOptionByValue(findTestObject(""tambahlogbook/input_Kegiatan""), ""Searching Materi"", false)",Chrome 115.0.0.0,,,2023-08-03 16:31:38,2023-08-03 16:31:38,0.670s,PASSED
+"setText(findTestObject(""tambahlogbook/input_Hasil""), ""300"")",Chrome 115.0.0.0,,,2023-08-03 16:31:38,2023-08-03 16:31:39,0.788s,PASSED
+"selectOptionByValue(findTestObject(""tambahlogbook/input_Next Step""), ""Pause"", false)",Chrome 115.0.0.0,,,2023-08-03 16:31:39,2023-08-03 16:31:40,0.671s,PASSED
+"setText(findTestObject(""tambahlogbook/input_PathFilename""), ""testfilepath"")",Chrome 115.0.0.0,,,2023-08-03 16:31:40,2023-08-03 16:31:41,0.742s,PASSED
+"setText(findTestObject(""tambahlogbook/input_Detail Pekerjaan""), ""test case detail pekerjaan"")",Chrome 115.0.0.0,,,2023-08-03 16:31:41,2023-08-03 16:31:41,0.812s,PASSED
+"selectOptionByValue(findTestObject(""tambahlogbook/input_Waktu Kerja""), ""Jam Normal"", false)",Chrome 115.0.0.0,,,2023-08-03 16:31:41,2023-08-03 16:31:43,1.235s,PASSED
+"click(findTestObject(""tambahlogbook/button_Submit""))",Chrome 115.0.0.0,,,2023-08-03 16:31:43,2023-08-03 16:31:43,0.599s,PASSED

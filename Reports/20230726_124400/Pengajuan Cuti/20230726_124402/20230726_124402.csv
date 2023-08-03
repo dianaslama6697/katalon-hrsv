@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pengajuan Cuti,Chrome 114.0.0.0,,,2023-07-26 12:44:23,2023-07-26 12:44:44,20.127s,PASSED
+,,,,,,,
+Test Cases/TCLogin_Positive,Chrome 114.0.0.0,,,2023-07-26 12:44:24,2023-07-26 12:44:33,9.022s,PASSED
+openWebDriver(),Chrome 114.0.0.0,,,2023-07-26 12:44:24,2023-07-26 12:44:28,3.770s,PASSED
+"navigateToUrl(""http://103.180.125.58:8080/#/login"")",Chrome 114.0.0.0,,,2023-07-26 12:44:28,2023-07-26 12:44:30,2.054s,PASSED
+"setText(findTestObject(""login/username_object""), ""dianaslama"")",Chrome 114.0.0.0,,,2023-07-26 12:44:30,2023-07-26 12:44:31,1.182s,PASSED
+"setText(findTestObject(""login/password_object""), ""dianaslama"")",Chrome 114.0.0.0,,,2023-07-26 12:44:31,2023-07-26 12:44:32,0.916s,PASSED
+"click(findTestObject(""login/button_object""))",Chrome 114.0.0.0,,,2023-07-26 12:44:32,2023-07-26 12:44:33,0.514s,PASSED
+,,,,,,,
+Test Cases/TCPengajuanCuti_Positive,Chrome 114.0.0.0,,,2023-07-26 12:44:33,2023-07-26 12:44:44,10.547s,PASSED
+"click(findTestObject(""PengajuanCuti/select_Cuti dan Lembur""))",Chrome 114.0.0.0,,,2023-07-26 12:44:34,2023-07-26 12:44:34,0.488s,PASSED
+"click(findTestObject(""PengajuanCuti/option_Pengajuan Cuti""))",Chrome 114.0.0.0,,,2023-07-26 12:44:34,2023-07-26 12:44:35,0.466s,PASSED
+"click(findTestObject(""PengajuanCuti/button_Ajukan Cuti""))",Chrome 114.0.0.0,,,2023-07-26 12:44:35,2023-07-26 12:44:35,0.689s,PASSED
+"waitForElementVisible(findTestObject(""PengajuanCuti/canvas_Tanda Tangan Digital""), 20)",Chrome 114.0.0.0,,,2023-07-26 12:44:35,2023-07-26 12:44:36,0.692s,PASSED
+driver = getWebDriver(),Chrome 114.0.0.0,,,2023-07-26 12:44:36,2023-07-26 12:44:36,0.001s,PASSED
+builder = new org.openqa.selenium.interactions.Actions(driver),Chrome 114.0.0.0,,,2023-07-26 12:44:36,2023-07-26 12:44:36,0.011s,PASSED
+"ele = findWebElement(findTestObject(""PengajuanCuti/canvas_Tanda Tangan Digital""))",Chrome 114.0.0.0,,,2023-07-26 12:44:36,2023-07-26 12:44:36,0.335s,PASSED
+drawAction = release().build(),Chrome 114.0.0.0,,,2023-07-26 12:44:36,2023-07-26 12:44:36,0.010s,PASSED
+drawAction.perform(),Chrome 114.0.0.0,,,2023-07-26 12:44:36,2023-07-26 12:44:37,0.778s,PASSED
+"click(findTestObject(""PengajuanCuti/input_Tanggal Cuti""))",Chrome 114.0.0.0,,,2023-07-26 12:44:37,2023-07-26 12:44:38,0.850s,PASSED
+"click(findTestObject(""PengajuanCuti/value_Tanggal Cuti""))",Chrome 114.0.0.0,,,2023-07-26 12:44:38,2023-07-26 12:44:39,0.673s,PASSED
+"selectOptionByValue(findTestObject(""PengajuanCuti/select_Jenis Cuti""), ""Cuti Tahunan"", false)",Chrome 114.0.0.0,,,2023-07-26 12:44:39,2023-07-26 12:44:40,1.020s,PASSED
+"selectOptionByValue(findTestObject(""PengajuanCuti/select_Nama PIC""), ""20797c32-f666-4721-9247-6325808bdf36"", false)",Chrome 114.0.0.0,,,2023-07-26 12:44:40,2023-07-26 12:44:41,0.972s,PASSED
+"setText(findTestObject(""PengajuanCuti/textarea_Keterangan Cuti""), ""13:00 "")",Chrome 114.0.0.0,,,2023-07-26 12:44:41,2023-07-26 12:44:42,0.928s,PASSED
+"click(findTestObject(""PengajuanCuti/button_Submit""))",Chrome 114.0.0.0,,,2023-07-26 12:44:42,2023-07-26 12:44:42,0.815s,PASSED
+"verifyElementText(findTestObject(""PengajuanCuti/verify_success""), ""Pengajuan cuti berhasil dibuat"")",Chrome 114.0.0.0,,,2023-07-26 12:44:42,2023-07-26 12:44:43,1.069s,PASSED

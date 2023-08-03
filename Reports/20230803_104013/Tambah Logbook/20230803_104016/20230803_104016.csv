@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Tambah Logbook,Chrome 115.0.0.0,,,2023-08-03 10:40:57,2023-08-03 10:41:41,43.698s,FAILED
+,,,,,,,
+Test Cases/Login/TCLogin_Positive,Chrome 115.0.0.0,,,2023-08-03 10:40:57,2023-08-03 10:41:04,6.563s,PASSED
+openWebDriver(),Chrome 115.0.0.0,,,2023-08-03 10:40:58,2023-08-03 10:41:00,2.872s,PASSED
+"navigateToUrl(""http://103.180.125.58:8080/#/login"")",Chrome 115.0.0.0,,,2023-08-03 10:41:00,2023-08-03 10:41:01,0.922s,PASSED
+"setText(findTestObject(""login/username_object""), ""dianaslama"")",Chrome 115.0.0.0,,,2023-08-03 10:41:01,2023-08-03 10:41:03,1.343s,PASSED
+"setText(findTestObject(""login/password_object""), ""dianaslama"")",Chrome 115.0.0.0,,,2023-08-03 10:41:03,2023-08-03 10:41:03,0.632s,PASSED
+"click(findTestObject(""login/button_object""))",Chrome 115.0.0.0,,,2023-08-03 10:41:03,2023-08-03 10:41:04,0.378s,PASSED
+,,,,,,,
+Test Cases/Logbook/TCTambahLogbook_Positive,Chrome 115.0.0.0,,,2023-08-03 10:41:04,2023-08-03 10:41:41,36.798s,FAILED
+openWebDriver(),Chrome 115.0.0.0,,,2023-08-03 10:41:04,2023-08-03 10:41:07,2.203s,PASSED
+"navigateToUrl(""http://103.180.125.59/#/login"")",Chrome 115.0.0.0,,,2023-08-03 10:41:07,2023-08-03 10:41:07,0.514s,PASSED
+"setText(findTestObject(""login/username_object""), ""dianaslama"")",Chrome 115.0.0.0,,,2023-08-03 10:41:07,2023-08-03 10:41:08,0.817s,PASSED
+"setText(findTestObject(""login/password_object""), ""dianaslama"")",Chrome 115.0.0.0,,,2023-08-03 10:41:08,2023-08-03 10:41:08,0.606s,PASSED
+"click(findTestObject(""login/button_object""))",Chrome 115.0.0.0,,,2023-08-03 10:41:08,2023-08-03 10:41:09,0.358s,PASSED
+"click(findTestObject(""tambahlogbook/button_Tambah Logbook""))",Chrome 115.0.0.0,,,2023-08-03 10:41:09,2023-08-03 10:41:41,31.769s,FAILED

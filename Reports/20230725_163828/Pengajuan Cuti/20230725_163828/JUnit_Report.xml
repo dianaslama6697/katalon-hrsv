@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pengajuan Cuti" time="18.8" tests="2" failures="0" errors="0">
+   <testsuite name="Pengajuan Cuti" tests="2" failures="0" errors="0" time="18.8" skipped="0" timestamp="2023-07-25 16:38:40" hostname="HRD SHARING VISION - DESKTOP-RO2JRQG.mshome.net" id="Test Suites/Pengajuan Cuti">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HRD SHARING VISION\\Katalon Studio\\hrsv-test-training\\Reports\\20230725_163828\\Pengajuan Cuti\\20230725_163828"/>
+         <property name="logFiles" value="C:\\Users\\HRD SHARING VISION\\Katalon Studio\\hrsv-test-training\\Reports\\20230725_163828\\Pengajuan Cuti\\20230725_163828\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HRD SHARING VISION - DESKTOP-RO2JRQG.mshome.net"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="172.28.112.1"/>
+         <property name="sessionId" value="ea73fd8ff0546179a1e54ccf7d72aa9a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TCLogin_Positive" time="8.244" classname="Test Cases/TCLogin_Positive" status="PASSED">
+         <system-out><![CDATA[2023-07-25 16:38:40 - [TEST_CASE][PASSED] - Test Cases/TCLogin_Positive: Test Cases/TCLogin_Positive
+
+2023-07-25 16:38:41 - [TEST_STEP][PASSED] - openWebDriver(): Action delay is set to 0 milliseconds
+
+2023-07-25 16:38:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-25 16:38:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-25 16:38:44 - [TEST_STEP][PASSED] - navigateToUrl("http://103.180.125.58:8080/#/login"): Navigate to 'http://103.180.125.58:8080/#/login' successfully
+
+2023-07-25 16:38:46 - [MESSAGE][PASSED] - Navigate to 'http://103.180.125.58:8080/#/login' successfully
+
+2023-07-25 16:38:46 - [TEST_STEP][PASSED] - setText(findTestObject("login/username_object"), "dianaslama"): Text 'dianaslama' is set on object 'Object Repository/login/username_object'
+
+2023-07-25 16:38:47 - [MESSAGE][PASSED] - Text 'dianaslama' is set on object 'Object Repository/login/username_object'
+
+2023-07-25 16:38:47 - [TEST_STEP][PASSED] - setText(findTestObject("login/password_object"), "dianaslama"): Text 'dianaslama' is set on object 'Object Repository/login/password_object'
+
+2023-07-25 16:38:48 - [MESSAGE][PASSED] - Text 'dianaslama' is set on object 'Object Repository/login/password_object'
+
+2023-07-25 16:38:48 - [TEST_STEP][PASSED] - click(findTestObject("login/button_object")): Object: 'Object Repository/login/button_object' is clicked on
+
+2023-07-25 16:38:48 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_object' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TCPengajuanCuti_Positive" time="10.15" classname="Test Cases/TCPengajuanCuti_Positive" status="PASSED">
+         <system-out><![CDATA[2023-07-25 16:38:48 - [TEST_CASE][PASSED] - Test Cases/TCPengajuanCuti_Positive: Test Cases/TCPengajuanCuti_Positive
+
+2023-07-25 16:38:49 - [TEST_STEP][PASSED] - click(findTestObject("PengajuanCuti/select_Cuti dan Lembur")): Object: 'Object Repository/PengajuanCuti/select_Cuti dan Lembur' is clicked on
+
+2023-07-25 16:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/PengajuanCuti/select_Cuti dan Lembur' is clicked on
+
+2023-07-25 16:38:50 - [TEST_STEP][PASSED] - click(findTestObject("PengajuanCuti/option_Pengajuan Cuti")): Object: 'Object Repository/PengajuanCuti/option_Pengajuan Cuti' is clicked on
+
+2023-07-25 16:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/PengajuanCuti/option_Pengajuan Cuti' is clicked on
+
+2023-07-25 16:38:50 - [TEST_STEP][PASSED] - click(findTestObject("PengajuanCuti/button_Ajukan Cuti")): Object: 'Object Repository/PengajuanCuti/button_Ajukan Cuti' is clicked on
+
+2023-07-25 16:38:51 - [MESSAGE][PASSED] - Object: 'Object Repository/PengajuanCuti/button_Ajukan Cuti' is clicked on
+
+2023-07-25 16:38:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("PengajuanCuti/canvas_Tanda Tangan Digital"), 20): Object 'Object Repository/PengajuanCuti/canvas_Tanda Tangan Digital' is visible
+
+2023-07-25 16:38:52 - [MESSAGE][PASSED] - Object 'Object Repository/PengajuanCuti/canvas_Tanda Tangan Digital' is visible
+
+2023-07-25 16:38:52 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-07-25 16:38:52 - [TEST_STEP][PASSED] - builder = new org.openqa.selenium.interactions.Actions(driver): null
+
+2023-07-25 16:38:52 - [TEST_STEP][PASSED] - ele = findWebElement(findTestObject("PengajuanCuti/canvas_Tanda Tangan Digital")): null
+
+2023-07-25 16:38:52 - [TEST_STEP][PASSED] - drawAction = release().build(): null
+
+2023-07-25 16:38:52 - [TEST_STEP][PASSED] - drawAction.perform(): null
+
+2023-07-25 16:38:53 - [TEST_STEP][PASSED] - click(findTestObject("PengajuanCuti/input_Tanggal Cuti")): Object: 'Object Repository/PengajuanCuti/input_Tanggal Cuti' is clicked on
+
+2023-07-25 16:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/PengajuanCuti/input_Tanggal Cuti' is clicked on
+
+2023-07-25 16:38:54 - [TEST_STEP][PASSED] - click(findTestObject("PengajuanCuti/value_Tanggal Cuti")): Object: 'Object Repository/PengajuanCuti/value_Tanggal Cuti' is clicked on
+
+2023-07-25 16:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/PengajuanCuti/value_Tanggal Cuti' is clicked on
+
+2023-07-25 16:38:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("PengajuanCuti/select_Jenis Cuti"), "Cuti Tahunan", false): All options with value 'Cuti Tahunan' are selected in object 'Object Repository/PengajuanCuti/select_Jenis Cuti' 
+
+2023-07-25 16:38:55 - [MESSAGE][PASSED] - All options with value 'Cuti Tahunan' are selected in object 'Object Repository/PengajuanCuti/select_Jenis Cuti' 
+
+2023-07-25 16:38:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("PengajuanCuti/select_Nama PIC"), "20797c32-f666-4721-9247-6325808bdf36", false): All options with value '20797c32-f666-4721-9247-6325808bdf36' are selected in object 'Object Repository/PengajuanCuti/select_Nama PIC' 
+
+2023-07-25 16:38:56 - [MESSAGE][PASSED] - All options with value '20797c32-f666-4721-9247-6325808bdf36' are selected in object 'Object Repository/PengajuanCuti/select_Nama PIC' 
+
+2023-07-25 16:38:56 - [TEST_STEP][PASSED] - setText(findTestObject("PengajuanCuti/textarea_Keterangan Cuti"), "13:00 "): Text '13:00 ' is set on object 'Object Repository/PengajuanCuti/textarea_Keterangan Cuti'
+
+2023-07-25 16:38:57 - [MESSAGE][PASSED] - Text '13:00 ' is set on object 'Object Repository/PengajuanCuti/textarea_Keterangan Cuti'
+
+2023-07-25 16:38:57 - [TEST_STEP][PASSED] - click(findTestObject("PengajuanCuti/button_Submit")): Object: 'Object Repository/PengajuanCuti/button_Submit' is clicked on
+
+2023-07-25 16:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/PengajuanCuti/button_Submit' is clicked on
+
+2023-07-25 16:38:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("PengajuanCuti/verify_success"), "Pengajuan cuti berhasil dibuat"): Actual text and expected text of test object 'Object Repository/PengajuanCuti/verify_success' are matched.
+
+2023-07-25 16:38:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/PengajuanCuti/verify_success' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-25 16:38:40 - [TEST_SUITE][PASSED] - Pengajuan Cuti: Test Cases/TCPengajuanCuti_Positive]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

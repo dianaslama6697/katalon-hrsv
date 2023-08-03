@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pengajuan Cuti,Chrome 114.0.0.0,,,2023-07-25 14:02:09,2023-07-25 14:02:17,8.374s,FAILED
+,,,,,,,
+Test Cases/TCLogin,Chrome 114.0.0.0,,,2023-07-25 14:02:09,2023-07-25 14:02:17,7.691s,PASSED
+openWebDriver(),Chrome 114.0.0.0,,,2023-07-25 14:02:09,2023-07-25 14:02:12,2.291s,PASSED
+"navigateToUrl(""http://103.180.125.59/#/login"")",Chrome 114.0.0.0,,,2023-07-25 14:02:12,2023-07-25 14:02:13,1.022s,PASSED
+"setText(findTestObject(""login/username_object""), ""dianaslama"")",Chrome 114.0.0.0,,,2023-07-25 14:02:13,2023-07-25 14:02:14,1.005s,PASSED
+"setText(findTestObject(""login/password_object""), ""dianaslama"")",Chrome 114.0.0.0,,,2023-07-25 14:02:14,2023-07-25 14:02:14,0.687s,PASSED
+"click(findTestObject(""login/button_object""))",Chrome 114.0.0.0,,,2023-07-25 14:02:14,2023-07-25 14:02:15,0.416s,PASSED
+"waitForElementVisible(findTestObject(""login/userpass_wrong""), 2)",Chrome 114.0.0.0,,,2023-07-25 14:02:15,2023-07-25 14:02:16,0.946s,PASSED
+"verifyElementText(findTestObject(""login/userpass_wrong""), ""Username and/or Password is invalid"")",Chrome 114.0.0.0,,,2023-07-25 14:02:16,2023-07-25 14:02:16,0.334s,PASSED
+closeWebDriver(),Chrome 114.0.0.0,,,2023-07-25 14:02:16,2023-07-25 14:02:17,0.630s,PASSED
+,,,,,,,
+Test Cases/TCPengajuanCuti,Chrome 114.0.0.0,,,2023-07-25 14:02:17,2023-07-25 14:02:17,0.398s,FAILED
+"click(findTestObject(""PengajuanCuti/select_Cuti dan Lembur""))",Chrome 114.0.0.0,,,2023-07-25 14:02:17,2023-07-25 14:02:17,0.070s,FAILED
