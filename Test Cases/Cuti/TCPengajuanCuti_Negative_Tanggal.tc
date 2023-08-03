@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCPengajuanCuti_Negative_Tanggal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c74c3fe6-59d0-4a62-99c2-d032a6addf5f</testCaseGuid>
+</TestCaseEntity>

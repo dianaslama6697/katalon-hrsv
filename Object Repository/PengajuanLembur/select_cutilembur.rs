@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_cutilembur</name>
+   <tag></tag>
+   <elementGuidId>95289395-7b60-4a2c-8cdf-b0b7d890c4df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.custom-dropdown-item.overflow-hidden.text-truncate</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/ul/li[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>66bc15c6-17e0-45d7-a69d-c3b795e677e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-dropdown-item overflow-hidden text-truncate</value>
+      <webElementGuid>bd4d8abb-7cc4-4239-a2ed-a63104a8b773</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cuti dan Lembur</value>
+      <webElementGuid>ba7b384f-bdbe-4951-aaa8-e06e08f256e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;c-app c-default-layout&quot;]/div[@class=&quot;c-sidebar c-sidebar-dark c-sidebar-lg-show c-sidebar-fixed sidebar-root&quot;]/ul[@class=&quot;c-sidebar-nav h-100 ps&quot;]/li[@class=&quot;custom-sidebar-nav-item selected&quot;]/a[@class=&quot;custom-dropdown-item overflow-hidden text-truncate&quot;]</value>
+      <webElementGuid>d3be0630-901d-4ebd-a656-ec61a2886499</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/ul/li[3]/a</value>
+      <webElementGuid>50954835-0216-457c-9e3f-3e8a5e29908a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Cuti dan Lembur')]</value>
+      <webElementGuid>04ede896-3410-42b4-a6d2-8dd62e738da0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Slip Gaji'])[1]/following::a[1]</value>
+      <webElementGuid>ab34fa2b-5c1f-484b-b75d-8e21ddf0e446</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logbook'])[1]/following::a[2]</value>
+      <webElementGuid>670de9c2-962a-4f8d-b5f3-9f50ad019691</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengajuan Cuti'])[1]/preceding::a[1]</value>
+      <webElementGuid>f589cb8a-e8c2-497a-8ac2-4acaafb9841a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengajuan Lembur'])[1]/preceding::a[2]</value>
+      <webElementGuid>64b35484-ecd3-4c60-bfd9-99c4da598591</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cuti dan Lembur']/parent::*</value>
+      <webElementGuid>268e85e9-71c0-413a-a32d-8b408a29768f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a</value>
+      <webElementGuid>f5a93890-f070-43fd-8718-b55b0b2ff4bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Cuti dan Lembur' or . = 'Cuti dan Lembur')]</value>
+      <webElementGuid>f354b51a-ec90-4b8d-bc09-4cbbd038851c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

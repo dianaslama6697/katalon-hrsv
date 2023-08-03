@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCTambahLogbook_Negative_Nama Tim</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e62643c4-8b6b-4702-8457-ba862833b303</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCTambahLogbook_Negative_Pathname</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7581b89e-48a5-45c4-8f61-c73c3caf1092</testCaseGuid>
+</TestCaseEntity>

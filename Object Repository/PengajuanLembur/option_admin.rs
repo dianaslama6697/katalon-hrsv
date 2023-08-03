@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>option_admin</name>
+   <tag></tag>
+   <elementGuidId>3afd22fd-672d-46c9-a457-99d357790406</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;root&quot;]/div/div[3]/div/main/div/div/div/div/div/div[2]/div[3]/div[2]/div/select/option[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>711627e5-2ff1-4493-8657-d2af3213cbb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1691059174378</value>
+      <webElementGuid>493c16de-9cdc-4b57-895c-f6eb01fac5ae</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
